@@ -1,3 +1,6 @@
+/* 19  tarik exam cilo tai ami tamon valo vabe banaithe pari nai try korci jani na kmn hoiche, aro 2ta exam asay 27 tarik and 29 tarik , doya korbe jano valo vabe exam ta shesh korthe pari , */
+
+
 *{
     margin: 0;
     padding: 0;
@@ -465,7 +468,9 @@ footer{
     
 }
 .footer-end p{
-    color: rgba(255, 255, 255, 0.86);  
+    color: rgba(255, 255, 255, 0.86);
+    display: flex; 
+    justify-content: center;
     
 }
 
