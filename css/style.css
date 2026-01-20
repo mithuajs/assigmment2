@@ -3,7 +3,106 @@
     padding: 0;
 }
 
-
+/* .............................................................................. */
+ /* content section start */
+ 
+ #content{
+    max-width: 1600px;
+    height: 1276px;
+    background-color: #1A0B2E;
+    margin: 0 auto;
+    padding-top: 1px;
+}
+.content-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.content-head{
+    margin-top: 120px;
+}
+.content-head h4{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.main-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+.content-card{
+    background-color: #250D44;
+    border-radius: 10px;
+    padding: 10px;
+}
+.content-card iframe{
+    border-radius: 8px;
+}
+.content-card h5{
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.content-first-text{
+    color: rgba(255, 255, 255, 0.86);
+    line-height: 24px;
+    margin-top: 12px;
+    padding: 3px;
+}
+.you-tube-min{
+    color: #00FF88;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.content-text{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.content-text h4{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+.content-host{
+    display:flex ;
+    background-color: #351165;
+    border-radius: 10px;
+}
+.host-image{
+    padding: 40px;
+}
+.host-info{
+    margin: auto 0;
+}
+.host-info h5{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+.host-info p{
+    color: rgba(255, 255, 255, 0.86);
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.host-content-image{
+    display: flex;
+    height:40px;
+    width: 40px;
+     gap: 10px;
+}
+/* content card mouse hover */
+.content-card:hover{
+    cursor: pointer;
+    background-color: #2f194c;
+}
+/* content end */
 
 
 
