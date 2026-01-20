@@ -475,4 +475,215 @@ footer{
 }
 /* ................................................................................... */
 
+ 
+/* pc view end */
+
+
+/* .................................................................... */
+/* start  phone devise view */
+
+@media screen and (max-width:576px) {
+    #head{
+        max-width: 440px;
+        height: 60px;
+    }
+    .header-img img{
+        max-width: 137px;
+        height: 20px;
+    }
+    .header-nav, .btn {
+        display: none;
+    }
+    .menu-ber{
+        display: block;
+    }
+
+/* header close */
+
+    #hero{
+        max-width: 440px;
+        min-height: 466px;
+    
+    }
+    .hero-container{
+        max-width: 400px;
+        height: 366px;
+    }
+    .microphone{
+        max-width: 200px;
+        min-height: 200px ;
+    }
+    .microphone img{
+        max-width: 80px;
+        min-height: 80px;
+    }
+    .new{
+        margin-right: -120px;
+        margin-top: 5px;
+    }
+    .hero-text h1{
+        font-size: 1.5rem;
+    }
+    .hero-text p{
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    .second-btn, .third-btn{
+        max-width: 147px;
+        min-height: 44px;
+        padding: 1px;
+    }
+    .second-btn:hover , .third-btn:hover{
+            width: 147px;
+    font-weight: 500px;
+    }
+    .second-btn p{
+        font-size: 1rem;
+        font-weight: 500px;
+    }
+
+
+
+/* hero section close */
+
+    #main{
+        max-width: 440px;
+    }
+    .main-container{
+        max-width: 400px;
+    }
+    .main-text h1{
+        font-size: 1.2rem;
+        font-weight: 600px;
+    }
+    .main-text p{
+            width: 350px;
+            margin: 0 auto;
+    }
+    .main-rating{
+            max-width: 350px;
+            margin: 0 auto;
+            grid-template-columns: repeat(2, 1fr);
+            margin-top: 30px;
+            gap: 5px;
+    } 
+    .main-card h3{
+            font-size: 2rem;
+            font-weight: 600px;
+    }
+    .main-card p{
+        font-size: 1rem;
+        font-weight: 500px;
+    }
+
+
+
+/* card section end */
+
+    #music{
+            max-width: 440px;
+    }
+    .music-container{
+        max-width: 400px;
+    }
+    .music-text{
+        margin-top: 20px;
+    }
+    .music-text h1{
+        font-size: 1.6rem;
+         font-weight: 600px;
+    }
+    .music-container-2{
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 370px;
+        margin-top: 5px ;
+        margin-left: 30px;
+    }
+    .music-card-2, .music-card-3, .music-card-4{
+        margin-right: 30px;
+    }
+
+
+/* music card close */
+
+    #content{
+         max-width: 440px;
+        min-height: 1945px;
+    }
+    .content-container{
+        max-width: 400px;
+     }
+    .content-head{
+       margin-top: 40px;
+     }
+     .content-head h4{
+        font-size: 1.6rem;
+     text-align: center;
+    }
+    .main-content{
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        margin-top: 5px;
+        margin: 0 auto;
+    }
+    .content-card{
+            max-width: 370px;
+            height: 340;
+    }
+
+
+/* content end */
+
+    .content-text{
+        max-width: 440px;
+        margin-top: 10px;
+    }
+
+
+    
+/* content host end */
+    #footer{
+        max-width: 440px;
+    }
+    .footer-container{
+        max-width: 400px;
+    }
+    .footer-image img{
+        max-width: 215px;
+        height: 32px ;
+        margin-top: 5px;
+    }
+    .content-host{
+        flex-direction: column;
+        align-items: center;
+        margin-top: -20px;
+    }
+    .host-info{
+        max-width: 370px;
+        text-align: center;
+        /* margin-top: -20px; */
+    }
+    .host-content-image{
+        margin: 0 90px;
+    }
+    .host-info h5{
+            font-size: 1.2rem;
+            font-weight: 500px;
+            margin-top: -40px;
+    }
+    .host-info p{
+            font-size: 1rem;
+            margin-top: -20px;
+            line-height: 20px;
+     }
+    .footer-icon{
+            grid-template-columns: repeat(2, 1fr);
+            margin: 0 auto;
+            gap: 10px;
+            margin-top: 30px;
+    }
+ }
+
 
