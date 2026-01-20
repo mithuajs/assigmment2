@@ -7,6 +7,134 @@
 
 
 
+
+
+
+
+/* ...................................................................................... */
+/* hero section start */
+
+#hero{
+    max-width: 1600px;
+    min-height: 760px;
+    margin: 0 auto;
+    background-image: url(../image/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.microphone{
+    background-image: url(../image/hero-circle.png);
+    transform: rotate(360deg) ;
+    transition: transform 25s;
+    height: 350px;
+    width: 350px;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.microphone:hover{
+    transform: rotate(-360deg) ;
+    transition: transform 25s;
+}
+.new{
+    position: absolute;
+    margin-right: -250px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: end;
+    background-color: #00FF88;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+/* new button hover effect */
+.new:hover{
+    cursor: pointer;
+    background-color: #31b779;
+    color: aliceblue;
+    font-weight: bold;
+}
+.hero-text h1{
+    font-size: 3.8rem;
+    font-weight: 800px;
+    color: #ffffff;
+    margin-top: 40px;
+}
+.hero-text p{
+    color: rgba(255, 255, 255, 0.86);
+    margin-top: 8px;
+}
+.hero-btn-container{
+    display: flex;
+    gap: 10px;
+    margin: 0 97px;
+}
+.second-btn{
+    width: 201px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 7px 12px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8 );
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 24px;
+}
+/* spotify button hover effect added */
+.second-btn:hover{
+    background: linear-gradient(to right, #9100F8, #F7E93F, #FB09B4) ;
+    cursor: pointer;
+    padding: 6px 10px;
+}
+
+.listen{
+    margin-bottom: 10px;
+    /* border: 3px solid red; */
+}
+.third-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 7px 29px;
+    border-radius: 10px;
+    margin-top: 24px; 
+    background-color: #1A0B2E;
+    border: 1px solid #00FF88;
+}
+/* third button hover effect */
+.third-btn:hover {
+    cursor: pointer;
+    background-color:#311951 ;
+    width: 135px;
+    font-weight: bold;
+}
+.third-btn p{
+    font-weight: 600;
+    color: #00FF88;
+}
+/* hero section end */
+
+
+
+
+
+/* ................................................................................................. */
 /* main ratting section start*/
 
 #main{
