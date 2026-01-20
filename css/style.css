@@ -5,7 +5,63 @@
 
 
 
+
+
+/* main ratting section start*/
+
+#main{
+    max-width: 1600px;
+    background-color: #1A0B2E;
+    margin: 0 auto;
+    padding-top: 1px;
+}
+.main-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.main-text h1{
+    font-weight: bold;
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+.main-text p{
+    color: rgba(255, 255, 255, 0.86);
+    line-height: 20px;
+}
+.main-text span{
+    margin-top: 20px ;
+}
+.main-rating{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 160px;
+}
+.main-card{
+    max-width: 240px;
+    gap: 80px;
+    margin-bottom: 50px;
+}
+.main-card h3{
+    font-size: 3rem;
+    font-weight: 900px;
+    color: #00FF88;
+}
+.main-card p{
+    margin-top: 16px;
+    color: rgba(255, 255, 255, 0.86);
+}
+/* main ratting end*/
+
+
+
+
+
+/* .......................................................................................... */
 /* grid card  section start*/
+
 #music{
     max-width: 1600px;
     background-color: #1A0B2E;
