@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/* ............................................................................................... */
+/* footer section  */
+
+footer{
+    max-width: 1600px;
+    min-height: 412px;
+    margin: 0 auto;
+    background-image: url(../image/footer-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.footer-container{
+    text-align: center;
+}
+.footer-icon{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 32px;
+    margin-left: 70px;
+    gap: 25px;
+}
+
+.footer-icon-container-2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 32px;
+}
+.footer-icon-container-2 p{
+    color: rgba(255, 255, 255, 0.86);
+    
+}
+.footer-end p{
+    color: rgba(255, 255, 255, 0.86);  
+    
+}
+
+/* footer icon mouse hover cursor pointer */
+.footer-icon:hover{
+    cursor: pointer;
+}
+/* ................................................................................... */
+
+
